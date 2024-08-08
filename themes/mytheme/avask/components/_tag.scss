@@ -1,0 +1,56 @@
+.p-avask-tag {
+  background: $avaskTagBg;
+  color: $avaskTagTextColor;
+  font-size: $avaskTagFontSize;
+  line-height: $avaskTagLineHeight;
+  font-weight: $avaskTagFontWeight;
+  border-radius: $avaskTagBorderRadius;
+  padding: $avaskTagPadding;
+
+  &.p-tag-success {
+    background-color: $avaskTagSuccessBg;
+    color: $avaskTagSuccessTextColor;
+
+    .p-tag-icon {
+      color: $avaskTagSuccessIconColor;
+    }
+  }
+
+  &.p-tag-info {
+    background-color: $avaskTagInfoBg;
+    color: $avaskTagInfoTextColor;
+
+    .p-tag-icon {
+      color: $avaskTagInfoIconColor;
+    }
+  }
+
+  &.p-tag-warning {
+    background-color: $avaskTagWarningBg;
+    color: $avaskTagWarningTextColor;
+
+    .p-tag-icon {
+      color: $avaskTagWarningIconColor;
+    }
+  }
+
+  &.p-tag-danger {
+    background-color: $avaskTagDangerBg;
+    color: $avaskTagDangerTextColor;
+
+    .p-tag-icon {
+      color: $avaskTagDangerIconColor;
+    }
+  }
+
+  .p-tag-icon {
+    margin-right: $avaskTagInlineSpacing;
+    font-size: $avaskTagIconFontSize;
+    color: $avaskTagIconColor;
+
+    &.p-icon {
+      width: $badgeFontSize;
+      height: $badgeFontSize;
+    }
+  }
+}

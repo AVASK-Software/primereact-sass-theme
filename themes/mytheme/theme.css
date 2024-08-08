@@ -6973,6 +6973,52 @@
     background-color: #f44336;
     color: #ffffff;
   }
+  .p-avask-tag {
+    background: rgba(154, 193, 228, 0.0784313725);
+    color: #245887;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    border-radius: 999999px;
+    padding: 6px 12px 6px 8px;
+  }
+  .p-avask-tag.p-tag-success {
+    background-color: #E8FCF0;
+    color: #044E2F;
+  }
+  .p-avask-tag.p-tag-success .p-tag-icon {
+    color: #038249;
+  }
+  .p-avask-tag.p-tag-info {
+    background-color: #F0F2F5;
+    color: #4E5F74;
+  }
+  .p-avask-tag.p-tag-info .p-tag-icon {
+    color: #4E5F74;
+  }
+  .p-avask-tag.p-tag-warning {
+    background-color: #FFF7E5;
+    color: #672709;
+  }
+  .p-avask-tag.p-tag-warning .p-tag-icon {
+    color: #DC6803;
+  }
+  .p-avask-tag.p-tag-danger {
+    background-color: #FFEBE5;
+    color: #A22016;
+  }
+  .p-avask-tag.p-tag-danger .p-tag-icon {
+    color: #D92D20;
+  }
+  .p-avask-tag .p-tag-icon {
+    margin-right: 12px;
+    font-size: 14px;
+    color: #245887;
+  }
+  .p-avask-tag .p-tag-icon.p-icon {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
 }
 /* Customizations to the designer theme should be defined here */
 

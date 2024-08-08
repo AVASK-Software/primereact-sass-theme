@@ -10,5 +10,5 @@ We choose to fork the repo, and apply our brand colors. This way when there's an
 # How to tweak the variables
 
 1. Change the variables from `mytheme`
-2. run the `saas` command to compile the `theme.css` (more details in above links)
+2. run the following `sass` command to compile the `theme.css` (more details in above links)
 3. copy the resulting `theme.css` in `fabled-kit`
