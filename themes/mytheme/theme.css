@@ -51,6 +51,7 @@
 :root {
   --blue-50:#f4f7f9;
   --blue-100:#cad7e2;
+  --blue-150:#DFEBF6;
   --blue-200:#a1b7cb;
   --blue-300:#7797b5;
   --blue-400:#4e789e;
@@ -3212,11 +3213,11 @@
     font-weight: 600;
   }
   .p-datatable .p-datatable-tbody > tr > td.p-highlight {
-    background: #245887;
+    background: var(--blue-150);
     color: #FFFFFF;
   }
   .p-datatable .p-datatable-tbody > tr.p-highlight {
-    background: #245887;
+    background: var(--blue-150);
     color: #FFFFFF;
   }
   .p-datatable .p-datatable-tbody > tr.p-highlight-contextmenu {
