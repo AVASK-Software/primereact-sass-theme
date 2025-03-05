@@ -211,7 +211,7 @@ $tableResizerHelperBg: $primaryColor;
 
 /// Background of drag helper used for multiple row selection
 /// @group data
-$tableDragHelperBg: rgba($primaryColor, .16);
+$tableDragHelperBg: lighten($primaryColor, 60%);
 
 /// Border of a table footer
 /// @group data
