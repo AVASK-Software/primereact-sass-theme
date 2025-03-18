@@ -1,6 +1,6 @@
 # PrimeReact Theming with SASS
 
-Visit the [official documentation](https://primereact.org/theming/#customtheme) for more information.
+Visit the [official documentation]( ) for more information.
 
 # About the fork
 
