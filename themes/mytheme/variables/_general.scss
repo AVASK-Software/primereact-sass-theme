@@ -21,7 +21,7 @@ $textSecondaryColor: #6c757d;
 
 /// Background of a highlighted item
 /// @group general
-$highlightBg: $primaryColor;
+$highlightBg: rgba($primaryColor, 0.12) !default;
 
 /// Text color of a highlighted item
 /// @group general
