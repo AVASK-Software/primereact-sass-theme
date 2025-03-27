@@ -348,3 +348,6 @@ $timelineEventColor:#dee2e6;
 /// Color of a line to connect to organization chart nodes
 /// @group data
 $organizationChartConnectorColor: #dee2e6;
+
+/// Background of a highlighted item in selected table rows
+$tableHighlightBg: rgba($primaryColor, 0.12) !default;
