@@ -77,7 +77,7 @@
 //theme
 .p-tabview {
     .p-tabview-nav {
-        background: $tabviewNavBg;
+        background: #fff;
         border: $tabviewNavBorder;
         border-width: $tabviewNavBorderWidth;
 
@@ -88,7 +88,7 @@
                 border: $tabviewHeaderBorder;
                 border-width: $tabviewHeaderBorderWidth;
                 border-color: $tabviewHeaderBorderColor;
-                background: $tabviewHeaderBg;
+                background: #fff;
                 color: $tabviewHeaderTextColor;
                 padding: $tabviewHeaderPadding;
                 font-weight: $tabviewHeaderFontWeight;
@@ -112,7 +112,7 @@
 
             &.p-highlight {
                 .p-tabview-nav-link {
-                    background: $tabviewHeaderActiveBg;
+                    background: #fff;
                     border-color: $tabviewHeaderActiveBorderColor;
                     color: $tabviewHeaderTextActiveColor;
                 }
@@ -137,7 +137,7 @@
     }
 
     .p-tabview-panels {
-        background: $tabviewContentBg;
+        background: #fff;
         padding: $tabviewContentPadding;
         border: $tabviewContentBorder;
         color: $tabviewContentTextColor;
