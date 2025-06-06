@@ -77,7 +77,7 @@
 //theme
 .p-tabview {
     .p-tabview-nav {
-        background: #fff;
+        background: $primaryTextColor;
         border: $tabviewNavBorder;
         border-width: $tabviewNavBorderWidth;
 
@@ -88,7 +88,7 @@
                 border: $tabviewHeaderBorder;
                 border-width: $tabviewHeaderBorderWidth;
                 border-color: $tabviewHeaderBorderColor;
-                background: #fff;
+                background: $primaryTextColor ;
                 color: $tabviewHeaderTextColor;
                 padding: $tabviewHeaderPadding;
                 font-weight: $tabviewHeaderFontWeight;
@@ -137,7 +137,7 @@
     }
 
     .p-tabview-panels {
-        background: #fff;
+        background: $primaryTextColor;
         padding: $tabviewContentPadding;
         border: $tabviewContentBorder;
         color: $tabviewContentTextColor;
