@@ -1,0 +1,25 @@
+name: Enforce Azure Boards Linking
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  check-azure-boards-reference:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+
+    steps:
+      - name: Check PR title for Azure Boards reference
+        run: |
+          PR_TITLE="${{ github.event.pull_request.title }}"
+
+          # Pattern to match AB#{number}
+          if [[ $PR_TITLE =~ AB#[0-9]+ ]]; then
+            echo "✓ PR title contains Azure Boards reference"
+            exit 0
+          fi
+
+          echo "::error::PR title must contain Azure Boards reference (e.g., AB#123)"
+          exit 1
