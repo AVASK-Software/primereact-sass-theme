@@ -1,0 +1,96 @@
+$primaryColor: #a10ccd;
+$primaryDarkColor: #61077b;
+$primaryDarkerColor: #400552;
+$primaryTextColor: #FFFFFF;
+
+$defaultBg: #FFFFFF;
+
+
+$colors: (
+    "blue": $primaryColor,
+    "green": #038249,
+    "yellow": #2bff00,
+    // crazy color - fix when it shows up
+    "cyan": #2bff00,
+    // crazy color - fix when it shows up
+    "pink": #2bff00,
+    // crazy color - fix when it shows up
+    "indigo": #2bff00,
+    // crazy color - fix when it shows up
+    "teal": #2bff00,
+    // crazy color - fix when it shows up
+    "orange": #F79009,
+    "bluegray": #4E5F74,
+    "purple": #2bff00,
+    // crazy color - fix when it shows up
+    "red": #D92D20,
+    "primary": $primaryColor
+);
+
+// Mandatory Designer Variables
+@import './variables/general';
+@import './variables/form';
+@import './variables/button';
+@import './variables/panel';
+@import './variables/_data';
+@import './variables/_overlay';
+@import './variables/_message';
+@import './variables/_menu';
+@import './variables/_media';
+@import './variables/_misc';
+@import './variables/chip';
+
+:root {
+    font-family: "Inter", sans-serif;
+    --font-family: "Inter", sans-serif;
+    --surface-a: #ffffff; // default
+    --surface-b: #EFF2F5; // --surface-50
+    --surface-c: #E0E5EB; // --surface-100
+    --surface-d: #D3DBE3; // --surface-200
+    --surface-e: #ffffff; // default
+    --surface-f: #ffffff; // default
+    --text-color: #2bff00; // crazy color - fix when it shows up
+    --text-color-secondary: #2bff00; // crazy color - fix when it shows up
+    --primary-color: #2bff00; // crazy color - fix when it shows up
+    --primary-color-text: #2bff00; // crazy color - fix when it shows up
+    --surface-0: #ffffff;
+    --surface-50: #EFF2F5;
+    --surface-100: #E0E5EB;
+    --surface-200: #D3DBE3;
+    --surface-300: #94A4B8;
+    --surface-400: #5E7692;
+    --surface-500: #4E5F74;
+    --surface-600: #435365;
+    --surface-700: #303C4B;
+    --surface-800: #202832;
+    --surface-900: #14191F;
+    --gray-50: #EFF2F5;
+    --gray-100: #E0E5EB;
+    --gray-200: #D3DBE3;
+    --gray-300: #94A4B8;
+    --gray-400: #5E7692;
+    --gray-500: #4E5F74;
+    --gray-600: #435365;
+    --gray-700: #303C4B;
+    --gray-800: #202832;
+    --gray-900: #14191F;
+    --content-padding:#{$panelContentPadding};
+    --inline-spacing:#{$inlineSpacing};
+    --border-radius:#{$borderRadius};
+    --surface-ground: #f8f9fa;
+    --surface-section: #ffffff;
+    --surface-card: #ffffff;
+    --surface-overlay: #ffffff;
+    --surface-border: #dee2e6;
+    --surface-hover: #e9ecef;
+    --focus-ring: #{$focusShadow};
+    --maskbg: #{$maskBg};
+    --highlight-bg: #{$highlightBg};
+    --highlight-text-color: #2bff00; // crazy color - fix when it shows up
+    color-scheme: light;
+}
+
+// fix for Chip - sass compilation error
+$shade500: #4E5F74 !default;
+$chipFocusBg: $shade500 !default;
+$chipFocusTextColor: $textColor !default;
