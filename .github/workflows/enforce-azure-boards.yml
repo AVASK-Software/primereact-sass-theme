@@ -14,12 +14,13 @@ jobs:
       - name: Check PR title for Azure Boards reference
         run: |
           PR_TITLE="${{ github.event.pull_request.title }}"
+          echo "Checking PR title: $PR_TITLE"
 
-          # Pattern to match AB#{number}
-          if [[ $PR_TITLE =~ AB#[0-9]+ ]]; then
+          # Use grep to match AB#{number} anywhere in the string (e.g., "AB#123: Title")
+          if echo "$PR_TITLE" | grep -qE 'AB#[0-9]+'; then
             echo "✓ PR title contains Azure Boards reference"
             exit 0
           fi
 
-          echo "::error::PR title must contain Azure Boards reference (e.g., AB#123)"
+          echo "::error::PR title must contain Azure Boards reference (e.g., AB#123 or AB#123: Title)"
           exit 1
