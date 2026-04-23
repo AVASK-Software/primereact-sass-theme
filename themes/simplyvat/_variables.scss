@@ -1,6 +1,6 @@
-$primaryColor: #a10ccd;
-$primaryDarkColor: #61077b;
-$primaryDarkerColor: #400552;
+$primaryColor: #0496d1;
+$primaryDarkColor: #023c54;
+$primaryDarkerColor: #112440;
 $primaryTextColor: #FFFFFF;
 
 $defaultBg: #FFFFFF;
@@ -41,8 +41,8 @@ $colors: (
 @import './variables/chip';
 
 :root {
-    font-family: "Inter", sans-serif;
-    --font-family: "Inter", sans-serif;
+    font-family: "Rubik", sans-serif;
+    --font-family: "Rubik", sans-serif;
     --surface-a: #ffffff; // default
     --surface-b: #EFF2F5; // --surface-50
     --surface-c: #E0E5EB; // --surface-100
