@@ -1,4 +1,6 @@
-$primaryColor: #0496d1;
+$secondaryColor: #5D0878;
+$primaryColor: #024D6B;
+$blueColor: #024D6B;
 $primaryDarkColor: #023c54;
 $primaryDarkerColor: #112440;
 $primaryTextColor: #FFFFFF;
@@ -7,7 +9,7 @@ $defaultBg: #FFFFFF;
 
 
 $colors: (
-    "blue": $primaryColor,
+    "blue": $blueColor,
     "green": #038249,
     "yellow": #2bff00,
     // crazy color - fix when it shows up
